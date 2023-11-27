@@ -1,5 +1,5 @@
 fun getCubeList(num: Int): MutableList<Int> {
-    var list: MutableList<Int> = mutableListOf()
+    val list: MutableList<Int> = mutableListOf()
     for (i in 0..<num){
         list.add(i * i * i)
     }
